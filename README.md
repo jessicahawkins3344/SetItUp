@@ -1,4 +1,5 @@
 # SetItUp
+Quick & Easy local website development using Gulp, Bower, NPM, Bootstrap 4 & SASS
 
 ## Requirements
 

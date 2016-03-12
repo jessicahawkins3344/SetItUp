@@ -1,0 +1,23 @@
+{
+  "name": "SetItUp",
+  "homepage": "https://jsquaredcreative.me",
+  "authors": [
+    "Jessica Hawkins <jessica@jsquaredcreative.me>"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "WOW": "^1.1.2",
+    "animate.css": "^3.4.0",
+    "flexslider": "^2.6.0",
+    "isotope": "^2.2.2",
+    "jquery": "^2.1.4",
+    "elegant-icons": "*"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "./scss/bootstrap.scss"
+      ]
+    }
+  }
+}

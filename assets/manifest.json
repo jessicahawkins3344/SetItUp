@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "main.js": {
+      "main": true,
+      "vendor": [
+        "assets/scripts/plugins/plugins.js"
+      ],
+      "files": [
+        "scripts/main.js"
+      ]
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  }
+}

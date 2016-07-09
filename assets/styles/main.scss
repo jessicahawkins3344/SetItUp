@@ -1,23 +1,65 @@
 $icon-font-path: '../fonts/';
 @import "components/style-library.scss";
-@import "components/variables.scss";
+@import "variables";
+@import "mixins";
 
 // bower:scss
 @import "../../bower_components/bootstrap/scss/bootstrap.scss";
 // endbower
 
 
-@import "components/utilities.scss";
-@import "components/navbar.scss";
-@import "components/icons.scss";
-@import "components/buttons.scss";
-@import "components/feature-box.scss";
-@import "components/icon-buttons.scss";
 
-@import "layouts/header.scss";
-@import "layouts/footer.scss";
-@import "layouts/pages.scss";
-@import "layouts/posts.scss";
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// Reset and dependencies
+@import "normalize";
+@import "print";
+
+// Core CSS
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+
+// Components
+@import "animation";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "pager";
+@import "labels";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "responsive-embed";
+@import "close";
+
+// Components w/ JavaScript
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+
+// Utility classes
+@import "utilities";
+@import "utilities-background";
+@import "utilities-spacing";
+@import "utilities-responsive";
+
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 
@@ -32,6 +74,7 @@ body {
     color: #001A33;
     webkit-tap-highlight-color: #222;
     top:0;
+    position: relative;
 }
 
 /* workaround modal-open padding issue */
@@ -580,3 +623,86 @@ h1, h2, h3, h4, h5, h6,
 // Rules for using icons as white on a dark background.
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+//
+// =Social buttons
+// --------------------------------------------------
+
+$facebook: #3b5998;
+$twitter: #55acee;
+$google: #dc4e41;
+$linkedin: #0077b5;
+
+.bg-facebook { background-color: $facebook; }
+.bg-twitter { background-color: $twitter; }
+.bg-google { background-color: $google; }
+.bg-linkedin { background-color: $linkedin; }
+
+.btn-social {
+  color: #fff;
+  border-radius: .25rem;
+  &:focus,
+  &:hover {
+    color: #fff;
+    background-color: $gray;
+  }
+
+  span:before { color: rgba(255,255,255,.5); }
+
+  > .icon-linkedin {
+    position: relative;
+    top: -.2rem;
+    font-size: 1.1rem;
+  }
+}
+
+.btn-social-icon {
+  padding: 1.4rem;
+  background-color: #fff;
+
+  > span {
+    margin: 0;
+
+    &:before {
+      color: rgba(66,78,83,.5);
+    }
+  }
+
+  &:hover,
+  &:focus {
+
+    > span:before {
+      color: #fff;
+    }
+  }
+}
+
+.btn-social-facebook {
+  &:hover,
+  &:focus {
+    background-color: $facebook;
+  }
+}
+
+.btn-social-twitter {
+  &:hover,
+  &:focus {
+    background-color: $twitter;
+  }
+}
+
+.btn-social-google {
+  &:hover,
+  &:focus {
+    background-color: $google;
+  }
+}
+
+.btn-social-linkedin {
+  &:hover,
+  &:focus {
+    background-color: $linkedin;
+  }
+}
+
+

@@ -65,69 +65,242 @@
                     What you notice first in <a href="http://v4-alpha.getbootstrap.com/">Bootstrap 4</a> is that <code>.panel</code> and <code>.well</code> have been replaced by the <code>.card</code>. This makes a lot of sense as "cards" are one of the more well known trends in responsive design.
                     The <a href="">Bootstrap 4 Cards</a> can be singular, grouped together (as shown) or <a href="">equal height</a>. There are many different layout and content options.
                 </p>
-                <div class="card-deck-wrapper">
-                    <div class="card-deck">
-                <div class="card card-inverse card-primary text-xs-center">
-  <div class="card-block">
-    <h3 class="c-white">Primary</h3>
-  </div>
-</div>
-<div class="card card-inverse card-success text-xs-center">
-  <div class="card-block">
-    <h3 class="c-white">Success</h3>
-  </div>
-</div>
-<div class="card card-inverse card-info text-xs-center">
-  <div class="card-block">
-    <h3 class="c-white">Info</h3>
-  </div>
-</div>
-<div class="card card-inverse card-warning text-xs-center">
-  <div class="card-block">
-    <h3>Warning</h3>
-  </div>
-</div>
-<div class="card card-inverse card-danger text-xs-center">
-  <div class="card-block">
-    <h3 class="c-white">Danger</h3>
-  </div>
-</div>
-</div>
-</div>
-<a href="http://unicorn-ui.com/" class="btn btn-info btn-round btn-lg">Rounded</a>
-  <a href="http://unicorn-ui.com/" class="btn btn-primary btn-round btn-lg">Rounded</a>
-  <a href="http://unicorn-ui.com/" class="btn btn-success btn-round btn-lg ">Rounded</a>
-  <a href="http://unicorn-ui.com/" class="btn btn-success-outline btn-round btn-lg ">Rounded</a><a href="http://unicorn-ui.com/" class="btn btn-primary-outline btn-hg ">Rounded</a>
-                <div class="card-deck-wrapper">
-                    <div class="card-deck">
-                    <!-- card -->
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample13.jpg" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Consise</h4>
-                            <p class="card-text">Cards are a Roundedod way to display content composed of different types of objects. They’re well-suited for presenting similar objects whose size or supported actions vary, like headings and photos with captions.</p>
-                        </div>
-                    </div>
-                    <!-- card -->
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample19.jpg" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Grouped</h4>
-                            <p class="card-text">Use card groups to render equal height cards without gutters between the cards. Use <code>.card-deck</code> for cards that aren’t attached to each another.</p>
-                        </div>
-                    </div>
-                    <!-- card -->
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample14.jpg" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Same Height</h4>
-                            <p class="card-text">A frequent problem occurs when you have multiple items in a row with content of varying height. Thanks to flexbox (and display:table) we now have equal height cards!</p>
-                            
-                        </div>
-                    </div>
-                    </div>
-                </div>
+                <div class="card-columns one-ui-kit-example-container">
+        <div class="card text-xs-center">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-block">
+            <h4 class="card-title">Special title treatment</h4>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
+        
+        <div class="card card-inverse">
+          <img class="card-img" style="width:100%;" src="https://unsplash.it/253/212/?image=855" alt="Card image">
+          <div class="card-img-overlay">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card text-xs-center">
+          <div class="card-block">
+            <blockquote class="card-blockquote">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+            <div class="card-block">
+              <button class="btn btn-danger-rounded-outline">Check out this btn</button>
             </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" style="width:100%;" src="https://unsplash.it/318/180/?image=964" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-info btn-block">Button</a>
+          </div>
+        </div>
+
+        <div class="card card-inverse">
+          <img class="card-img" style="width:100%;" src="https://unsplash.it/253/212/?image=911" alt="Card image">
+          <div class="card-img-overlay">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card card-danger card-inverse text-xs-center">
+          <div class="card-block">
+            <blockquote class="card-blockquote">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="card card-success card-inverse text-xs-center">
+          <div class="card-block">
+            <blockquote class="card-blockquote">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+    </div>
+    </section>
+    <section class="bg-white">
+    <div class="container">
+    <div class="page-header">
+                <h2>Buttons</h2>
+                </div>
+
+    <div class="one-ui-kit-example-container">
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Action
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+      <button type="button" class="btn btn-link">Link</button>
+      
+      <p></p>
+    
+      <button type="button" class="btn btn-primary-outline">Primary</button>
+      <button type="button" class="btn btn-secondary-outline">Secondary</button>
+      <button type="button" class="btn btn-success-outline">Success</button>
+      <button type="button" class="btn btn-info-outline">Info</button>
+      <button type="button" class="btn btn-warning-outline">Warning</button>
+      <button type="button" class="btn btn-danger-outline">Danger</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-info-outline dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Action
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+      
+      <p></p>
+
+      <button type="button" class="btn btn-primary-rounded">Primary</button>
+      <button type="button" class="btn btn-secondary-rounded">Secondary</button>
+      <button type="button" class="btn btn-success-rounded">Success</button>
+      <button type="button" class="btn btn-info-rounded">Info</button>
+      <button type="button" class="btn btn-warning-rounded">Warning</button>
+      <button type="button" class="btn btn-danger-rounded">Danger</button>
+    
+      <p></p>
+
+      <button type="button" class="btn btn-primary-rounded-outline">Primary</button>
+      <button type="button" class="btn btn-secondary-rounded-outline">Secondary</button>
+      <button type="button" class="btn btn-success-rounded-outline">Success</button>
+      <button type="button" class="btn btn-info-rounded-outline">Info</button>
+      <button type="button" class="btn btn-warning-rounded-outline">Warning</button>
+      <button type="button" class="btn btn-danger-rounded-outline">Danger</button>
+    
+      <p></p>
+
+      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-info">1</button>
+        <button type="button" class="btn btn-info">2</button>
+
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-info-rounded">Left</button>
+        <button type="button" class="btn btn-info-rounded">Middle</button>
+        <button type="button" class="btn btn-info-rounded">Right</button>
+      </div>
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-info-outline">Left</button>
+        <button type="button" class="btn btn-info-outline">Middle</button>
+        <button type="button" class="btn btn-info-outline">Right</button>
+      </div>
+
+      <p></p>    
+
+      <div class="row ">
+        <div class="col-sm-7">
+          <button type="button" class="btn btn-primary-outline btn-lg btn-block">Block level button</button>
+        </div>
+        <div class="col-sm-5">
+          <div class="btn-group" data-toggle="buttons" style="float:right;">
+            <label class="btn btn-info active">
+              <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Radio 1
+            </label>
+            <label class="btn btn-info">
+              <input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
+            </label>
+            <label class="btn btn-info">
+              <input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="row m-t-lg">
+    <div class="col-sm-6">
+  <div class="form-group has-icon-left form-control-name">
+            <label class="sr-only" for="inputName">Your name</label>
+            <input type="text" class="form-control form-control-lg" id="inputName" placeholder="Your name">
+          </div>
+          <div class="form-group has-icon-left form-control-email">
+            <label class="sr-only" for="inputEmail">Email address</label>
+            <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email address" autocomplete="off">
+          </div>
+          <div class="form-group has-icon-left form-control-password">
+            <label class="sr-only" for="inputPassword">Enter a password</label>
+            <input type="password" class="form-control form-control-lg" id="inputPassword" placeholder="Enter a password" autocomplete="off">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block ">Sign up for free!</button>
+          <br>
+          <div class="m-t-md card card-inverse card-social text-xs-center">
+            <div class="card-block bg-primary">
+              <img src="http://tatygrassini.github.io/landio-html/img/face5.jpg" height="90" width="90" alt="Avatar" class="img-circle">
+              <h5 class="card-title">Joel Fisher</h5>
+              <h6 class="card-subtitle">hey@joelfisher.com</h6>
+              <button type="submit" class="btn btn-secondary-outline btn-sm">Follow</button>
+            </div>
+            <div class="card-block container">
+              <div class="row">
+                <div class="col-md-4 card-stat">
+                  <h4>149 <small class="text-uppercase">Shots</small></h4>
+                </div>
+                <div class="col-md-4 card-stat">
+                  <h4>1,763 <small class="text-uppercase">Follows</small></h4>
+                </div>
+                <div class="col-md-4 card-stat">
+                  <h4>324 <small>D/Ls</small></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-sm-6">
+          <a href="#" class="btn btn-social btn-block bg-facebook">
+            <span class="icon-facebook"></span> Login with Facebook
+          </a>
+          <a href="#" class="btn btn-social btn-block bg-google">
+            <span class="icon-google"></span> Login with Google
+          </a>
+          </div>
+          </div>
         </section>
         <section id="two" class="bg-alt">
             <div class="container">
@@ -756,11 +929,11 @@
         </div>
         <!--scripts loaded here-->
         
-        <script src="//ajax.Roundedogleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-        <script src="dist/js/scripts.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js,//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+        <script src="dist/scripts/main.js"></script>
     </body>
 </html>

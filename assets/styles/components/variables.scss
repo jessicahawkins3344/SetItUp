@@ -1,23 +1,22 @@
-// Custom Color Variables.
-// -------------------------
+// Grayscale and brand colors for use across Bootstrap.
 
-$turquoise:           #02c0a7;
-$coral:               #F43662;
-$emerald:             #2ecc71;
-$sunny:             #f1c40f;
-$tangerine:           #F67323;
-$peas:              #B5BC18;
-$white:             #fff;
-$black:             #000;
-$white:             #fff;
+$gray-dark:                 #373a3c !default;
+$gray:                      #55595c !default;
+$gray-light:                #818a91 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
 
-
-$brand-primary:         $md-teal-300 !default;
-$brand-success:         $md-deep-purple-a100 !default;
-$brand-info:            $md-blue-600 !default;
-$brand-warning:         $md-yellow-500!default;
-$brand-danger:          $md-deep-orange-700 !default;
-$brand-action:          $emerald !default
+// ONE UI KIT - EDIT
+// $brand-primary:             #0275d8 !default;
+$brand-primary:             #3BA5CA !default;
+// $brand-success:             #5cb85c !default;
+$brand-success:             #36ABA2 !default;
+// $brand-info:                #5bc0de !default;
+$brand-info:                #5B8FDE !default;
+// $brand-warning:             #f0ad4e !default;
+$brand-warning:             #EFD23E !default;
+// $brand-danger:              #d9534f !default;
+$brand-danger:              #EF5B3E !default;
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
@@ -68,3 +67,7 @@ $spacers: (
   )
 ) !default;
 $border-width:               1px !default;
+
+// ONE UI KIT - ADD
+$one-ui-kit-btn-border-width:    2px;
+$one-ui-kit-btn-rounded-border-radius:    20px;

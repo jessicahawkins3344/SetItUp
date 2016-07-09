@@ -19,5 +19,8 @@
         "./scss/bootstrap.scss"
       ]
     }
+  },
+  "devDependencies": {
+    "smooth-scroll": "^1.0.1"
   }
 }
